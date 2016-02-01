@@ -1,7 +1,7 @@
 # Powerpoint-Scaffold
 Create section headers and blank text slides based on an agenda slide using Automator/AppleScript (Mac)
 
-Facing an empty powerpoint window is very discouraging. Even you manage to come up an agenda with items you want to say, creating the required slides is also a repetative task.
+Facing an empty powerpoint window is very discouraging when you try to write a ppt file ("what should I say?"). Even you manage to come up an agenda with items you want to say, creating the required slides is also a repetative task.
 
 This automator workflow helps you eliminate the troublesome tasks by create the section header slides and blank text slides automatically from the agenda slide (you still need to do you part, think what you want to say!) 
 
@@ -13,5 +13,5 @@ To use it:
   5. Find the service (CreateSlidesBasedOnAgenda) at the Powerpoint menu > Services.
   6. Watch the service works for you.
 
-Release history
+Release history:
   [0.1] 2016-2-1. Initial release.
