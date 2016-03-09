@@ -23,3 +23,5 @@ Release history:
 	3. Add slide and section for “End”
   [0.3] 2016-3-9.
 	1. Add key press events to copy agenda to clipboard (cmd+A > cmd+C)
+  [0.4] 2016-3-9
+  	1. Fix delays between key press events 
