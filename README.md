@@ -15,13 +15,16 @@ To use it:
 
 Release history:
   [0.1] 2016-2-1. Initial release.
+  
   [0.2] 2016-3-8.
 	1. Add sections in the slides
 	2. Due to lack of support in applescript for sections in powerpoint, we
 	use UI controls in insert sections. As a result, different languages
 	will need different strings (insert > section)
 	3. Add slide and section for “End”
+
   [0.3] 2016-3-9.
 	1. Add key press events to copy agenda to clipboard (cmd+A > cmd+C)
+
   [0.4] 2016-3-9
   	1. Fix delays between key press events 
