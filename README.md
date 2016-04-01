@@ -6,10 +6,10 @@ Facing an empty powerpoint window is very discouraging when you try to write a p
 This automator workflow helps you eliminate the troublesome tasks by create the section header slides and blank text slides automatically from the agenda slide (you still need to do you part, think what you want to say!) 
 
 To use it:
-  1. Download the workflow and double click it. Allow it to be installed to your Service tolder.
+  1. Download the workflow and double click it. Allow it to be installed to your Service tolder. Change the language if yours is not English (by editing the first section of the applescript in the workflow)
   2. Open PowerPoint, create a blank new ppt file.
   3. After the title slide, create a blank text slide and write your agenda.
-  4. Find the service (CreateSlidesBasedOnAgenda) at the Powerpoint menu > Services.
+  4. Find the service (Powerpoint-Scaffold) at the Powerpoint menu > Services.
   5. For the fist use, you may see a popup asking you to allow SystemUIServer.app to run in System Preference > Security and Privacy > Privacy
   6. Watch the service works for you.
 
