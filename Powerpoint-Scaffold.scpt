@@ -1,18 +1,22 @@
 
+	--en-US strings on MS PowerPoint menu (Insert > Section)
+	set Tinsert to "Insert"
+	set Tsection to "Section"
+
+	--zh-tw strings on MS PowerPoint menu (插入 > 章節)
+	--set Tinsert to "插入"
+	--set Tsection to "章節"
+
+	
 	-- copy agenda items to clipboard	
 	tell application "System Events"
 		-- hit command+a and command+c to copy the agenda
 		keystroke "a" using {command down}
-		delay 0.1
+		delay 0.2
 		keystroke "c" using {command down}
+		delay 0.2
 	end tell
 	
-	--zh-tw strings on MS PowerPoint menu (插入 > 章節)
-	set Tinsert to "插入"
-	set Tsection to "章節"
-	--en-US strings on MS PowerPoint menu (Insert > Section)
-	--set Tinsert to "Insert"
-	--set Tsection to "Section"
 	
 	-- get content of clipboard
 	set agenda to paragraphs of (the clipboard)
